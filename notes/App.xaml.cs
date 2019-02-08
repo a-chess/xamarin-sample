@@ -11,6 +11,7 @@ namespace notes
         public static string FolderPath { get; private set; }
         public App()
         {
+            // hogehoge
             InitializeComponent();
 
             FolderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData));
